@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+#calcul{
+  color: rgb(247, 203, 6);
+  font-family: cursive;
+  text-align: center;
+  justify-content: center;
+  
+}
+#calc {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSswnjdT_LUBczp6yyYWHq1Zo9wEn5D4kZnQQ&s");
+}
+#content {
+  background: #2c302c;
+  padding: 20px;
+  border-radius: 10px;
+
+}
+#content form input {
+  border: 0;
+  outline: 0;
+  width: 50px;
+  height: 50px;
+  border-radius: 8px;
+  font-size: 30px;
+  margin: 10px;
+  cursor: pointer;
+}
+#backspace {
+  background-color: rgb(237, 30, 30);
+  color: white;
+}
+#res {
+  padding: 10px;
+}
+#clear {
+  background-color: rgb(247, 77, 9);
+  color: white;
+}
+#equal{
+  background-color: rgb(88, 9, 247);
+  color: white;
+}
+#col{
+  background-color: rgb(37, 245, 110);
+  color: rgb(10, 8, 8);
+}
+#opCol{
+  background-color: rgb(111, 222, 241);
+  color: rgb(7, 9, 9);
+}
+form #output {
+  display: flex;
+  justify-content: flex-end;
+  margin: 15px 0;
+}
+form #output input {
+  text-align: right;
+  flex: 1;
+  font-size: 25px;
+}
